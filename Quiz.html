@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cats</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+    }
+    .btn {
+        padding: 10px 20px;
+        margin: 10px;
+        font-size: 16px;
+        cursor: pointer;
+        border: none;
+        border-radius: 5px;
+        background-color: #007bff;
+        color: white;
+    }
+    .btn:hover {
+        background-color: #0056b3;
+    }
+
+</style>
+</head>
+<body>
+    <h1>Interactive Quiz</h1>
+    <h1>This is a simple fun interactive quiz about cats!</h1>
+    <h3> How to play? </h3>
+    <p>You will be given a question with a few choices- </p>
+    <p>Make sure to check your answers!</p>
+    <p>Goodluck and most importantly, have fun! ദ്ദി(˵ •̀ ᴗ - ˵ ) ✧</p>
+	<img src="https://i.pinimg.com/originals/af/1b/4a/af1b4a25006bcb49df681e423dd36b81.jpg" width=800 height=300 alt=>
+</body>
+
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cat Quiz</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+    }
+    .question {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .option {
+        margin-bottom: 10px;
+    }
+    .btn {
+        padding: 10px 20px;
+        margin: 10px;
+        font-size: 16px;
+        cursor: pointer;
+        border: none;
+        border-radius: 5px;
+        background-color: #007bff;
+        color: white;
+    }
+    .btn:hover {
+        background-color: #0056b3;
+    }
+</style>
+</head>
+<body>
+	<!DOCTYPE html>
+	<html lang="en">
+	<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Cat Quiz</title>
+	<style>
+	    body {
+	        font-family: Arial, sans-serif;
+	        text-align: center;
+	    }
+	    .question {
+	        font-size: 20px;
+	        margin-bottom: 20px;
+	    }
+	    .option {
+	        display: inline-block;
+	        margin-bottom: 10px;
+	    }
+	    .btn {
+	        padding: 10px 20px;
+	        margin: 10px;
+	        font-size: 16px;
+	        cursor: pointer;
+	        border: none;
+	        border-radius: 5px;
+	        background-color: black;
+	        color: white;
+	    }
+	    .btn:hover {
+	        background-color: #333;
+	    }
+	</style>
+	</head>
+	<body>
+	    <h1>Cat Quiz</h1>
+    
+	    <div class="question">
+	        <p>Question 1: What is the average lifespan of a domestic cat?</p>
+	        <div class="option">
+	            <button class="btn" onclick="checkAnswer('incorrect')">10 years</button>
+	        </div>
+	        <div class="option">
+	            <button class="btn" onclick="checkAnswer('incorrect')">15 years</button>
+	        </div>
+	        <div class="option">
+	            <button class="btn" onclick="checkAnswer('correct')">20 years</button>
+	        </div>
+	        <div class="option">
+	            <button class="btn" onclick="checkAnswer('incorrect')">25 years</button>
+	        </div>
+	    </div>
+    
+	    <div class="question">
+	        <p>Question 2: What is a group of cats called?</p>
+	        <div class="option">
+	            <button class="btn" onclick="checkAnswer('incorrect')">Flock</button>
+	        </div>
+	        <div class="option">
+	            <button class="btn" onclick="checkAnswer('incorrect')">Pack</button>
+	        </div>
+	        <div class="option">
+	            <button class="btn" onclick="checkAnswer('incorrect')">Herd</button>
+	        </div>
+	        <div class="option">
+	            <button class="btn" onclick="checkAnswer('correct')">Clowder</button>
+	        </div>
+	    </div>
+    
+	    <div class="question">
+	        <p>Question 3: What is a cat's most developed sense?</p>
+	        <div class="option">
+	            <button class="btn" onclick="checkAnswer('incorrect')">Taste</button>
+	        </div>
+	        <div class="option">
+	            <button class="btn" onclick="checkAnswer('correct')">Smell</button>
+	        </div>
+	        <div class="option">
+	            <button class="btn" onclick="checkAnswer('incorrect')">Hearing</button>
+	        </div>
+	        <div class="option">
+	            <button class="btn" onclick="checkAnswer('incorrect')">Sight</button>
+	        </div>
+	    </div>
+
+	    <div class="question">
+	        <p>Question 4: What is the scientific name for a domestic cat?</p>
+	        <div class="option">
+	            <button class="btn" onclick="checkAnswer('incorrect')">Canis lupus familiaris</button>
+	        </div>
+	        <div class="option">
+	            <button class="btn" onclick="checkAnswer('incorrect')">Felis domesticus</button>
+	        </div>
+	        <div class="option">
+	            <button class="btn" onclick="checkAnswer('incorrect')">Felis catus</button>
+	        </div>
+	        <div class="option">
+	            <button class="btn" onclick="checkAnswer('correct')">Felis silvestris catus</button>
+	        </div>
+	    </div>
+    
+	    <div id="result"></div>
+
+	    <script>
+	        function checkAnswer(answer) {
+	            if (answer === 'correct') {
+	                document.getElementById('result').innerHTML = '<p>Correct!</p>';
+	            } else {
+	                document.getElementById('result').innerHTML = '<p>Incorrect!</p>';
+	            }
+	        }
+	    </script>
+			
+			<button onclick="window.open('file:///Users/erikapedrosa/Documents/heart.html')">Go Back</button>
+	</body>
+	</html>
+    
